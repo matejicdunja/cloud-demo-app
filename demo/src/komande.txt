@@ -1,0 +1,7 @@
+pozicionirati se u demo folder i pokrenuti u terminalu
+
+docker build -t kolokvijum:v1 -f src/Dockerfile .
+
+i potom ukoliko je to uspesno
+
+docker run -p 8080:8080 kolokvijum:v1
