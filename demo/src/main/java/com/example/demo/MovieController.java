@@ -11,7 +11,7 @@ import java.util.List;
 // ovde za url treba da koristimo ime tabele a ne movie fiksno
 // @RequestMapping()
 @RestController
-@RequestMapping({"/api/${dunja.ime.tabele}"})
+@RequestMapping({"/api/movie"})
 public class MovieController {
 
     @Autowired
